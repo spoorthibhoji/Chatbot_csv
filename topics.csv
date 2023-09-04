@@ -1,0 +1,78 @@
+Topic,Links,Summary
+Tokenization,https://neptune.ai/blog/tokenization-in-nlp,"Tokenization is the first step in any NLP pipeline. It has an 
+important effect on the rest of your pipeline. It breaks the 
+unstructured data and natural languafe into text chunks
+ of information that can be considered as separate elements. 
+So futher these tokens can be used as a vector representation
+ which would help in converting a string into numerical data strcuture
+ which would be suitable for futher requirements. There 
+type of tokenization techniques which include the libraries in python like NLTK, spaCy,textBlob,Gensim,Keras "
+,https://realpython.com/nltk-nlp-python/#tokenization,
+,https://towardsdatascience.com/the-evolution-of-tokenization-in-nlp-byte-pair-encoding-in-nlp-d7621b9c1186,
+Word embeddings,https://www.turing.com/kb/guide-on-word-embeddings-in-nlp,"Word embeddings is the next step of NLP , the word 
+embeddings are basically the conversion of the tokens 
+into vectors for the futher requirements.Each word is represented by a real-valued vector with tens or hundreds of dimensions.Traditional approaches for representing words in NLP, such as one-hot encoding, suffer from several limitations. One-hot encoding represents each word as a sparse binary vector where only one element is 1 and the rest are 0s
+Methods of word embeddings - The methods such as Bag of Words(BOW), CountVectorizer and TFIDF rely on the word count in a sentence but do not save any syntactical or semantic information. 
+methods of word embeddings -
+Word2Vec 
+
+Word embeddings are a type of word representation that allows words with similar meaning to have a similar representation."
+,https://www.geeksforgeeks.org/word-embeddings-in-nlp/,
+,https://machinelearningmastery.com/what-are-word-embeddings/,
+Encoders and Decoders,https://www.baeldung.com/cs/nlp-encoder-decoder-models,"In general, a text encoder turns text into a numeric
+ representation. Unlike encoders, decoders unfold a vector
+ representing the sequence state and return something
+ meaningful for us like text, tags, or labels."
+,,
+,,
+Sentence Transformers,https://www.sbert.net/,"SentenceTransformers is a Python framework for state-of
+-the-art sentence, text and image embeddings.These embeddings can then be compared e.g. with cosine-similarity to find sentences with a similar meaning. This can be useful for semantic textual similar, semantic search, or paraphrase mining.Sentence transformers are a type of deep learning model that specializes in encoding and transforming sentences into dense vector representations in a meaningful way.
+Texts are embedded in a vector space such that similar text is close, which enables applications such as semantic search, clustering, and retrieval.
+
+One of the most widely used of these pretrained models is BERT, or Bidirectional Encoder Representations from Transformers by Google AI.
+SBERT is fine-tuned on sentence pairs using a siamese architecture"
+,https://www.pinecone.io/learn/series/nlp/sentence-embeddings/,
+,https://huggingface.co/docs/hub/sentence-transformers,
+Part of Speech tagging,https://www.shiksha.com/online-courses/articles/pos-tagging-in-nlp/,"Part-of-speech tagging (POS tagging) is a fundamental task in
+ natural language processing (NLP) that involves assigning a
+ grammatical category or part of speech to each word in a text. POS tagging is a useful tool in natural language processing (NLP) as it allows algorithms to understand the grammatical structure of a sentence and to disambiguate words that have multiple meanings. It is typically performed using machine learning algorithms that are trained on a large annotated corpus of text."
+,https://www.geeksforgeeks.org/nlp-part-of-speech-default-tagging/,
+,https://www.tutorialspoint.com/natural_language_processing/natural_language_processing_part_of_speech_tagging.htm,
+Named entity recognition,https://www.scaler.com/topics/nlp/name-entity-recognition-nlp/,"Named Entity Recognition (NER) is a natural language processing (NLP) task that involves identifying and classifying named entities in text into predefined
+ categories such as names of persons, organizations,
+ locations, dates, percentages, and more.NER is also referred to as entity extraction, chunking and identification.NER is a key component of NLP systems, such as chatbots, sentiment analysis tools and search engines. "
+,https://www.analyticsvidhya.com/blog/2021/11/a-beginners-introduction-to-ner-named-entity-recognition/,
+,https://www.turing.com/kb/a-comprehensive-guide-to-named-entity-recognition,
+Text Generation ,https://www.analyticsvidhya.com/blog/2018/03/text-generation-using-python-nlp/,"Text generation is a subfield of natural language processing
+ (NLP) that deals with generating text automatically. It has a
+ wide range of applications, including machine translation, 
+content creation, and conversational agents.
+The different steps of Text Generation
+Importing Dependencies
+Loading the Data
+Creating Character/Word mappings
+Data Preprocessing
+Modelling
+Generating text"
+,https://www.turing.com/kb/natural-language-processing-understanding-analyzing-generating-text-with-python,
+,https://www.datacamp.com/blog/what-is-text-generation,
+N grams ,https://www.scaler.com/topics/nlp/n-gram-model-in-nlp/,"N-grams are continuous sequences of words or symbols or 
+tokens in a document and are defined as the neighboring 
+N-gram models are widely used in statistical natural language 
+processing, speech recognition, phonemes and sequences 
+of phonemes, machine translation and predictive text input,
+ and many others for which the modeling inputs are n-gram 
+distributions.sequences of items in a document.This is because different types of n-grams are suitable for different types of applications. You should try different n-grams on your data in order to confidently conclude which one works the best among all for your text analysis. For instance, research has substantiated that trigrams and 4 grams work the best in the case of spam filtering. "
+,https://www.analyticsvidhya.com/blog/2021/09/what-are-n-grams-and-how-to-implement-them-in-python/,
+,https://www.geeksforgeeks.org/n-gram-language-modelling-with-nltk/,
+LLMS,"https://www.techopedia.com/definition/34948/large-language-model-llm#:~:text=What%20Does%20Large%20Language%20Model,from%20one%20language%20to%20another.","A large language model (LLM) is a type of machine learning
+ model that can perform a variety of natural language 
+processing (NLP) tasks such as generating and classifying
+ text, answering questions in a conversational manner, and 
+translating text from one language to another.LLMs are trained
+ with immense amounts of data and use self-supervised learning
+ to predict the next token in a sentence, given the surrounding 
+context. The process is repeated over and over until the model 
+reaches an acceptable level of accuracy."
+,https://www.analyticsvidhya.com/blog/2023/03/an-introduction-to-large-language-models-llms/,
+,https://towardsdatascience.com/choosing-the-right-language-model-for-your-nlp-use-case-1288ef3c4929,
